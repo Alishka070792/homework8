@@ -78,8 +78,17 @@ public class Main {
         }
         System.out.println();
         System.out.println();
-        // Задача 3
+
+        // Задача 4
         System.out.println("Task 4");
+        //Преобразование первого массива
+        for (int i2 = 0; i2 < firstArray.length; i2++) {
+            if (firstArray[i2] % 2 != 0) {
+                firstArray[i2] = firstArray[i2] + 1;
+            }
+        }
+        System.out.println(Arrays.toString(firstArray));
+
     }
 }
 
